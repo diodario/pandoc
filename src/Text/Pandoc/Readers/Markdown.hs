@@ -117,6 +117,7 @@ isBlank _    = False
 -- auxiliary functions
 --
 
+
 isNull :: F Inlines -> Bool
 isNull ils = B.isNull $ runF ils def
 
